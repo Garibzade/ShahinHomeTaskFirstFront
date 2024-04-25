@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    text-decoration: none;
+}
+#img{
+    text-align: center;
+    cursor: pointer;
+
+}
+#navbars{
+    list-style-type: none;
+    background-color: black;
+    color: azure;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+li:hover{
+    background-color: rgb(186, 86, 50);
+    cursor: pointer;
+}
+li{
+    padding-top: 10px;
+    height: 40px;
+}
+#headers{
+    background-color: rgb(91, 199, 91);
+    height: 5px;
+    width: 100%;
+}
+#index{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 10px; 
+}
+main{
+    background-color: #FFA500;
+    height: 701px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.about{
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 15px;
+    width: 1050px;
+    height: 621px;
+}
+#about{
+    font-size: 22px;
+    margin-bottom: 17px;
+    margin-left: 15px;
+}
+.mega{
+    display: flex;
+}
+#img-book{
+    margin: 20px 60px ;
+}
+#issn{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #6b5252;
+    text-align: center;
+    font-weight: 600;
+}
+.secondblg{
+    text-align: justify;
+    color: #ae8585;
+    padding-top: 20px;
+    padding-right: 100px;
+    line-height: 30px;
+    font-size: 14px;
+    width: 450px;
+}
+.index{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    width: 340px;
+    height: 600px;
+    padding-top: 10px;
+}
+#Google{
+    margin: 15px;
+}
+.imgs{
+    margin: 20px;
+}
+footer{
+    height: 80px; 
+    display: flex;
+    background-color: #000000;
+    
+    color: #656565;
+    justify-content: space-between;
+    align-items: center;
+}
+#footers{
+    width: 450px;
+    font-size: 14px;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.foot-li:hover{
+    color: #2b6368;
+}
+#milli:hover{
+    opacity: 0.8;
+}
+.foot-hr{
+    height: 23px;
+    color: #a72525;
+    opacity: 0.3;
+}
